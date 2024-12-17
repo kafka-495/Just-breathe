@@ -17,7 +17,7 @@
 
   "browser_action": {
     "default_icon": "icons/icon-48.png",
-    "default_title": "Alarm Extension",
+    "default_title": "Just Breathe",
     "default_popup": "popup/popup.html"
   },
 
