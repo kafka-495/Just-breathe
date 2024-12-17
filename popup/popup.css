@@ -1,0 +1,89 @@
+body {
+  width: 380px;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.timer-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timer-input input {
+  width: 70px;
+  padding: 5px;
+}
+
+.media-upload {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.preview-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#image-preview {
+max-width: 200px;
+max-height: 200px;
+object-fit: contain;
+}
+
+#audio-preview {
+max-width: 300px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#confirmation, #active-timers {
+background-color: #f9f9f9;
+padding: 10px;
+border-radius: 5px;
+}
+
+#start-timer {
+padding: 10px;
+background-color: #4CAF50;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.timer-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.remove-timer {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
