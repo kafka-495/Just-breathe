@@ -76,7 +76,3 @@ We welcome contributions to this project\! If you're interested in contributing,
 6.  **Create a Pull Request:**
 
       * Create a pull request on the main repository, describing your changes and the problem they solve.
-
-### License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
