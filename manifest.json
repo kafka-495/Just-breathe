@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Simple Alarm Extension",
+  "name": "Just Breathe",
   "version": "1.0",
-  "description": "A simple browser alarm extension",
+  "description": "You have time, remember to breathe",
   
   "icons": {
     "48": "icons/icon-48.png",
